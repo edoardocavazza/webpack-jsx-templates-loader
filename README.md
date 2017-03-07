@@ -1,14 +1,13 @@
 # jsx-template-loader
-A webpack loader to include JSX files with custom imports.
 
----
+[![npm](https://img.shields.io/npm/v/jsx-templates-loader.svg)](https://www.npmjs.com/package/jsx-templates-loader)
+
+A webpack loader to include JSX files with custom imports.
 
 ## Install
 ```
 npm install --save-dev jsx-templates-loader
 ```
-
----
 
 ## Usage
 
@@ -23,8 +22,6 @@ Import a JSX file in your js file:
 ```js
 import template from './my-component.jsx';
 ```
-
----
 
 ## Config
 
