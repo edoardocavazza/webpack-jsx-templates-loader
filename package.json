@@ -1,0 +1,24 @@
+{
+  "name": "jsx-templates-loader",
+  "version": "0.0.1",
+  "description": "A webpack loader to include JSX files with custom imports.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edoardocavazza/webpack-jsx-templates-loader.git"
+  },
+  "keywords": [
+    "jsx",
+    "webpack",
+    "loader"
+  ],
+  "author": {
+    "email": "edoardo.cavazza@chialab.it",
+    "name": "Edoardo Cavazza"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edoardocavazza/webpack-jsx-templates-loader/issues"
+  },
+  "homepage": "https://github.com/edoardocavazza/webpack-jsx-templates-loader#readme"
+}
