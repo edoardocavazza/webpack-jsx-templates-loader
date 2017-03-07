@@ -31,22 +31,19 @@ import template from './my-component.jsx';
 	module: {
 		rules: [
 			{
-                enforce: 'pre',
-                test: /\.jsx$/,
-                loaders: [
-                    'external-jsx-loader',
-                ],
-				query: {
+				enforce: 'pre',
+				test: /\.jsx$/,
+				loaders: [
 					// import your custom hyperscript library at the top of the JSX file
-					importsHeader: "import React from 'react'",
-				}
-            },
+					'jsx-templates-loader?importsHeader="import React from \'react\'"',
+				],
+			},
 			{
-                test: /\.jsx$/,
-                use: [
-                    'babel-loader',
-                ],
-            },
+				test: /\.jsx$/,
+				use: [
+					'babel-loader',
+				],
+			},
 		],
 	}
 }
